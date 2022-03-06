@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="imagenes/logo2.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Cat Cakes</title>
+</head>
+<body>
+    <header>
+        <div style="width: 40%; padding-left: 20px;">
+            <img class="logo" src="imagenes/logolargo.png" alt="logo" height="100px">
+        </div>
+        
+        <ul class = "opciones" >
+            <li><a href="#home" class="font-architects">Inicio</a></li>
+            <li>
+                <div class="dropdown">
+                    <p  class="font-architects">Menú</p>
+                    <div class="dropdown-content">
+                        <a href="#sabores" class="font-architects" style="font-weight: normal; font-size: medium;">Sabores de pastel</a>
+                        <a href="#adornos"  class="font-architects" style="font-weight: normal; font-size: medium;">Decoraciones</a>
+
+                    </div>
+                
+                </div>
+
+            </li>
+            <li><a href="admin.html" class="font-architects">Administrador</a></li>
+            <li><a href="#nosotros"  class="font-architects">Contáctanos</a></li>
+            <li><a href="#pedidos" class="btn1 font-architects" > Haz tu pedido</a>
+            </li>
+        </ul>
+
+        
+    </header>
+
+    <main>
+        <!-- Bienvenida-->
+        <section id="home" class="fondo-completo">
+            <div class= "contenedor" style="box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);justify-content: center;border: 25px solid #fcdee1 ;background-color:bisque;">
+                <div class="heading">
+                
+                    <h1 class="font-architects large-font" style="font-weight:900">Cat Cakes</h1>
+    
+                </div>
+                <div class="heading">
+                    
+                    <p class="font-pacifico large-font" style="color:#513724">El toque de dulzura que necesitas</p>
+    
+                </div>
+                <div style="text-align: center;">
+                    <a href="#sabores" class="btn1 font-architects" style="width:fit-content; font-size: medium;"> Conoce nuestros sabores</a>
+
+                </div>
+    
+           
+            </div>
+            </section>
+        <!-- Pasteles en venta -->
+    
+            
+        <!-- Sabores de pasteles en cartas  -->
+        <section id="sabores" class="contenedor" style="background-color: white;">
+                <!-- Título -->
+            <div class="heading">
+                <h2 class="font-pacifico">Nuestros pasteles</h2>
+            </div>
+            <div class="container">
+                <div class="row mb-2">
+                    <div class="col">
+                        <div class="card">
+                            <img class = "card-img-top" src="imagenes/vainilla.jpg" alt="pastel de vainilla">
+                            <div class="card-body">
+                                <h5 class="card-title">Vainilla</h5>
+                                Desde $250.00
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card">
+                            <img class ="card-img-top" src="imagenes/chocolate.jpg" alt="pastel de chocolate">
+                            <div class="card-body">
+                                <h5 class="card-title">Chocolate</h5>
+                                Desde $299.00
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <img class ="card-img-top" src="imagenes/redvelvet.jpg" alt="pastel de red velvet">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Red Velvet</h5>
+                                Desde $435.00
+                            </div>
+                        </div>
+
+                    </div>
+                
+                </div>
+
+                <div class="row mb-2">
+                    <div class="col">
+                        <div class="card">
+                            <img class ="card-img-top" src="imagenes/moka.jpg" alt="pastel de moka">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Moka</h5>
+                                Desde $570.00
+                            </div>
+                        </div>
+    
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card">
+                            <img class ="card-img-top" src="imagenes/zanahoria.jpg" alt="pastel de zanahoria">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Zanahoria</h5>
+                                Desde $425.00
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                    <div class="col">
+                        <div class="card">
+                            <img class ="card-img-top" src="imagenes/quesofresas.jpg" alt="pastel de queso con fresas">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Queso</h5>
+                                Desde $350.00
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                
+
+            </div>
+            
+
+            
+
+        </section>
+    
+        <!-- Adornos posibles -->
+        <section id="adornos" class="contenedor" style="background-color: white;">
+        <div class="heading">
+            <h2 class="font-pacifico">Decoraciones</h2>
+        </div>
+        
+        <div class="container">
+            <div class="row mb-2">
+                <div class="col">
+                    <div class="card">
+                        <img class = "card-img-top" src="imagenes/candlesc.jpg" alt="pastel de vainilla">
+                        <div class="card-body">
+                            <h5 class="card-title">Velitas</h5>
+                            Desde $50.00
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card">
+                        <img class ="card-img-top" src="imagenes/fondantc.jpg" alt="pastel de chocolate">
+                        <div class="card-body">
+                            <h5 class="card-title">Fondant</h5>
+                            Desde $150.00
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img class ="card-img-top" src="imagenes/messagec.jpg" alt="pastel de red velvet">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Mensaje especial</h5>
+                            $25.00
+                        </div>
+                    </div>
+
+                </div>
+            
+            </div>
+        </div>
+    
+        </section>
+        
+
+        <!-- Formulario de pedidos -->
+        <section id="pedidos" class="contenedor">
+            <!-- título -->
+            <div class="heading"> 
+                <h2 class="font-pacifico">¡Haz tu pedido!</h2>
+            </div>
+
+            <!-- Formulario -->
+            <div class="f1">
+                <form id="form1">
+                    <h4>Ingresa tus datos</h4>
+                    <div class="input-fields">
+                        <label for="nombre">Ingresa tu nombre completo</label>
+                        <input type="text" id="nombre" name="nombre">
+                        <label for="tel">Ingresa tu teléfono</label>
+                        <input type="tel" id="telefono" name="telefono">
+                        <label for="email">Ingresa tu correo electrónico</label>
+                        <input type="email" id="mail" name="mail">
+                        
+                    </div>
+                    
+                    <h4>Selecciona los sabores de tu pastel</h4>
+
+                    <table style="width:100%">
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="sabor1" name="sabor1" value="Vainilla">
+                                <label for="sabor1">Vainilla</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="sabor2" name="sabor2" value="Chocolate">
+                                <label for="sabor2">Chocolate</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="sabor3" name="sabor3" value="Redvelvet">
+                                <label for="sabor3">Red Velvet</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="sabor4" name="sabor4" value="Moka">
+                                <label for="sabor4">Moka</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="sabor5" name="sabor5" value="Zanahoria">
+                                <label for="sabor5">Zanahoria</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="sabor6" name="sabor6" value="Quesofresas">
+                                <label for="sabor6">Queso</label>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <h4>Selecciona las decoraciones</h4>
+                    <div style="width: 100%; flex-direction:row; flex-wrap: wrap; align-items:center; justify-content: center;">
+                
+                            <div class="element1">
+                                <input type="checkbox" id="decoracion1" name="decoracion1" value="velas">
+                                <label for="decoracion1">Velitas</label>
+                            </div>
+                            
+                            <div class="element1">
+                                <input type="checkbox" id="decoracion2" name="decoracion2" value="mensaje">
+                                <label for="decoracion2">Mensaje de felicitación</label>
+                            </div>
+                            
+                            <div class="element1">
+                                <input type="checkbox" id="decoracion3" name="decoracion3" value="fondant">
+                                <label for="decoracion3">Fondant</label>
+                            </div>
+                            
+                        
+                   </div>
+                    
+                   
+
+                    <h4>¿Tienes un comentario adicional?</h4>
+                    <textarea class="comment-cl" name="comentario" id="comentario" rows="5"></textarea>
+
+                    <p style="color: gray;">Recuerda que debes hacer tu pedido con dos días de anticipación</p>
+
+                    <div style="display: flex; justify-content: center;">
+                        <input class= "btn1 font-architects" type="submit" id="submit" value="Hacer pedido" onclick="alert('¡Pedido realizado!');">
+
+                    </div>
+                    
+                </form>
+            </div>
+            
+
+        </section>
+        <!-- Footer -->
+        
+        <footer id="nosotros" class="contenedor" style="background-color: #89e0e0;">
+            <div class="heading" style="padding-bottom:2rem;">
+                <h2 class="font-pacifico" style="color: azure;">Contáctanos</h2>
+            </div>
+            <div class="row1 footer-section">
+               
+                <div class="row1 footer-element">
+                    <i class="fa fa-map-marker"></i>
+                    <p class="footer-text">Calle Balderas #27<br>Centro Histórico<br>CDMX</p>
+                </div>
+                <div class="row1 footer-element">
+                    <i class="fa fa-phone"></i>
+                    <p class="footer-text">+525541725743</p>
+                </div>
+                <div class="row1 footer-element">
+                    <i class="fa fa-envelope"></i>
+                    <p class="footer-text">info@catcakes.com</p>
+                </div>
+                <div class="row1 footer-element">
+                    <i class="fa fa-clock-o"></i>
+                    <p class="footer-text">Horario de atención <br>Lunes a Sábado: 10:00 - 19:00</p>
+                    
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <p style="text-align: center;background-color: white;">Síguenos</p>
+                    <div class="row1 footer-element">
+
+                        <i class="fa fa-facebook fa-2x"></i>
+                        <i class="fa fa-twitter fa-2x"></i>
+                        <i class="fa fa-instagram fa-2x"></i>
+    
+    
+                        
+                    </div>
+                </div>
+                
+            </div>
+            
+        </footer>
+    </main>
+   
+
+    
+</body>
+
+</html>
